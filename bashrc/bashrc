@@ -1,0 +1,41 @@
+## ssh server
+
+## server
+
+alias jekyll-server='cd /Users/fangshenghui/Documents/github/kakabei.github.io; jekyll server &'
+##
+
+alias ll='ls -l'
+alias doc-af='cd /Users/fangshenghui/Documents/doc'
+##alias code='cd /Users/fangshenghui/Documents/code'
+alias doc='cd /Users/fangshenghui/Documents/doc'
+
+## set env
+
+export CLICOLOR=1
+export LSCOLORS=ExGxFxdaCxDaDahbadeche
+export GEM_HOME="$HOME/.gem"
+
+autoload -U colors && colors
+PROMPT="%{$fg_bold[cyan]%}%n%{$reset_color%}@%{$fg_bold[cyan]%}%m %{$fg_bold[green]%}%2~  %{$reset_color%}%#"
+
+## java set env
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_321.jdk/Contents/Home
+export CLASSPAHT=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+export PATH=$JAVA_HOME/bin:$PATH:
+
+
+export M2_HOME=/Users/fangshenghui/Documents/tools/apache-maven-3.6.0
+export PATH=$PATH:$M2_HOME/bin
+
+## go
+# 配置 GOPROXY 环境变量
+export GOPROXY=https://proxy.golang.com.cn,direct
+# 还可以设置不走 proxy 的私有仓库或组，多个用逗号相隔（可选）
+export GOPRIVATE=git.mycompany.com,github.com/my/private
+
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/Documents/github/go
+# mysql
+export MYSQL_HOME=/usr/local/mysql
+export PATH=$PATH:$MYSQL_HOME/bin
