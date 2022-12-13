@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# export 
+
+mysqldump  -h127.0.0.27 -P3358 -uroot -proot@123456 -P3358  --databases kakabei_db --tables t_kkb_goods  --skip-lock-tables > t_kkb_goods.sql
+
+# import 
+
+mysql -h127.0.0.27 -P3358 -uroot -proot@123456  kakabei_db -A
+use kakabei_db;
+source  kkb_goods.sql ;
+
+
+
