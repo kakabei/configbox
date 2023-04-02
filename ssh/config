@@ -1,0 +1,13 @@
+# gitlab
+Host jd.com
+HostName vrviu.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_rsa
+
+# github
+Host github.com
+HostName github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/github-kk
+
+
