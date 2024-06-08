@@ -1,35 +1,35 @@
 [
 	{
 		"name": "af-jd-note",
-		"rootPath": "/Users/fangshenghui/Documents/doc/af-jd-note",
+		"rootPath": "/Users/1314/Documents/doc/af-jd-note",
 		"paths": [],
 		"tags": ["note"],
 		"enabled": true
 	},
 	{
 		"name": "redis-code",
-		"rootPath": "/Users/fangshenghui/Documents/code/redis/redis-2.8.13",
+		"rootPath": "/Users/1314/Documents/code/redis/redis-2.8.13",
 		"paths": [],
 		"tags": ["code"],
 		"enabled": true
 	},
 	{
 		"name": "af-github-kakabei",
-		"rootPath": "/Users/fangshenghui/Documents/github/kakabei.github.io/",
+		"rootPath": "/Users/1314/Documents/github/kakabei.github.io/",
 		"paths": [],
 		"tags": ["note"],
 		"enabled": true
 	},
 	{
 		"name": "obsidian",
-		"rootPath": "/Users/fangshenghui/Documents/github/obsidian",
+		"rootPath": "/Users/1314/Documents/github/obsidian",
 		"paths": [],
 		"tags": ["note"],
 		"enabled": true
 	},
 	{
 		"name": "configbox",
-		"rootPath": "/Users/fangshenghui/Documents/github/configbox",
+		"rootPath": "/Users/1314/Documents/github/configbox",
 		"paths": [],
 		"tags": ["note"],
 		"enabled": true
