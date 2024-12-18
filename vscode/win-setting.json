@@ -41,7 +41,8 @@
         "<C-f>": false,
         "<C-x>": false,
         "<C-c>": false,
-        "<C-h>": false
+        "<C-h>": false,
+        "<C-p>": false
     }
 
     
